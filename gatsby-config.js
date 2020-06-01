@@ -6,5 +6,5 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: ["@cs125/gatsby-theme-cs125"],
 }

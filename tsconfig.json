@@ -1,0 +1,26 @@
+{
+  "include": ["*.ts", "src/**/*.tsx", "src/**/*.ts"],
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "alwaysStrict": false,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types", "./typings"],
+    "baseUrl": ".",
+    "paths": {
+      "types/graphql": ["graphql-types.ts"]
+    }
+  }
+}
